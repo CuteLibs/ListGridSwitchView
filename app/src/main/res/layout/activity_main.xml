@@ -12,13 +12,12 @@
         android:layout_height="36dp"
         android:layout_centerInParent="true"
         app:iconColor="@color/purple_500"
-        app:gridIcon="@drawable/ic_my_own_grid"
-        app:listIcon="@drawable/ic_my_own_list"
         app:setMode="list" />
 
 
     <Button
         android:layout_width="wrap_content"
+        android:visibility="gone"
         android:layout_height="wrap_content"
         android:text="Check Mode"
         android:id="@+id/checkMode"/>

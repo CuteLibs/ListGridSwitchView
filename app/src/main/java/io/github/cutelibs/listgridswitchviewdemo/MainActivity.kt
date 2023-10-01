@@ -18,20 +18,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(binding.root)
 
 
-        binding.customListGridSwitchView.setListIcon(
-            AppCompatResources.getDrawable(
-                this,
-                R.drawable.ic_my_own_list
-            )
-        )
-        binding.customListGridSwitchView.setGridIcon(
-            AppCompatResources.getDrawable(
-                this,
-                R.drawable.ic_my_own_grid
-            )
-        )
 
-        binding.customListGridSwitchView.setIconColor(R.color.purple_500)
+
 
         binding.customListGridSwitchView.setMode(CustomListGridSwitchView.SwitchMode.LIST)
 
