@@ -68,10 +68,17 @@ Add this to your module's `build.gradle` file (latest version <a href="https://j
 ``` groovy
 dependencies {
     ...
-    implementation 'com.github.CuteLibs:ListGridSwitchView:1.0.0'
+    implementation 'com.github.CuteLibs:ListGridSwitchView:0.1.0'
 }
 ```
 
+or `build.gradle.kts` if you're using Kotlin DSL:
+``` kotlin
+dependencies {
+    ...
+    implementation("com.github.CuteLibs:ListGridSwitchView:0.1.0")
+}
+```
 
 
 ## Usage
@@ -79,7 +86,7 @@ dependencies {
 ### XML
 ```xml
 <io.github.cutelibs.listgridswitchview.CustomListGridSwitchView
-    android:id="@+id/switchView"
+    android:id="@+id/customListGridSwitchView"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content" />
 ```
@@ -126,7 +133,7 @@ switchView.shouldRememberState(true);
 ### XML
 ``` xml
 <io.github.cutelibs.listgridswitchview.CustomListGridSwitchView
-    android:id="@+id/switchView"
+    android:id="@+id/customListGridSwitchView"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     app:setMode="list" <!-- Sets the initial mode -->
