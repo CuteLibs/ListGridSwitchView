@@ -51,7 +51,7 @@ configure<PublishingExtension> {
         create<MavenPublication>("maven") {
             groupId = "io.github.cutelibs"
             artifactId = "listgridswitchview"
-            version = "1.0.0"
+            version = "0.1.0"
             afterEvaluate { artifact(tasks.getByName("bundleReleaseAar"))
             }
         }
