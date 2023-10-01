@@ -49,8 +49,7 @@ configure<PublishingExtension> {
             groupId = "io.github.cutelibs"
             artifactId = "listgridswitchview"
             version = "1.0.0"
-            artifact("$buildDir/outputs/aar/${artifactId}-release.aar").apply {
-                extension = "aar"
+            afterEvaluate { artifact(tasks.getByName("bundleReleaseAar"))
             }
         }
     }
