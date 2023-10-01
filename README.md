@@ -2,4 +2,7 @@
 
 
 ## Demo
-<img src="http://raw.githubusercontent.com/CuteLibs/ListGridSwitchView/master/files/listgridswitch.gif" width="500px"/>
+<img src="https://github.com/CuteLibs/ListGridSwitchView/blob/master/files/listgridswitch.gif?raw=true" width="300px"/>
+
+
+## 
