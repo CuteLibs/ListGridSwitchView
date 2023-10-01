@@ -1,4 +1,4 @@
-package io.github.cutelibs.listgridswitchview
+package io.github.cutelibs.listgridswitchviewdemo
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

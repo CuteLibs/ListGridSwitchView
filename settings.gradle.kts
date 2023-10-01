@@ -15,4 +15,4 @@ dependencyResolutionManagement {
 
 rootProject.name = "ListGridSwitchView"
 include(":app")
- 
+include(":listgridswitchview")
