@@ -1,4 +1,4 @@
-<h1 align="center"> List Grid Switch View </h1>
+<img src="https://github.com/CuteLibs/ListGridSwitchView/blob/master/files/listgridlogo.svg?raw=true" width="50px"/><h1>List Grid Switch View</h1> 
 
 <p align="center"> <a href="https://www.android.com"><img src="https://img.shields.io/badge/platform-Android-yellow.svg" alt="platform"></a>
  <a href="https://android-arsenal.com/api?level=21"><img src="https://img.shields.io/badge/API-24%2B-brightgreen.svg?style=flat" alt="API"></a> <a href="https://jitpack.io/#CuteLibs/ListGridSwitchView/"><img src="https://jitpack.io/v/CuteLibs/ListGridSwitchView.svg" alt="JitPack"></a> <a href="https://github.com/CuteLibs/ListGridSwitchView/blob/master/LICENSE"><img src="https://img.shields.io/github/license/CuteLibs/ListGridSwitchView" alt="GitHub license"></a> </p>
