@@ -1,6 +1,7 @@
 plugins {
     id("com.android.library")
     id("org.jetbrains.kotlin.android")
+    id("maven-publish")
 }
 
 android {
@@ -40,4 +41,17 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
+}
+
+configure<PublishingExtension> {
+    publications {
+        create<MavenPublication>("maven") {
+            groupId = "io.github.cutelibs"
+            artifactId = "listgridswitchview"
+            version = "1.0.0"
+            artifact("$buildDir/outputs/aar/${artifactId}-release.aar").apply {
+                extension = "aar"
+            }
+        }
+    }
 }
